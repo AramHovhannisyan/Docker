@@ -14,7 +14,7 @@ To start the app
 - create `start` script to package.json
 - Run `docker compose up`
 
-`/wordpress/mysql` folder include
+`/wordpress/mysql` folder includes
 - docker-compose to build wordpress app with mySQL DB and adminer
 
 To start the wp app
@@ -22,3 +22,11 @@ To start the wp app
 - Populate variables in .env
 - Run `docker compose up`
 
+`/wordpress-volumed` folder includes
+- docker-compose to build wordpress app with mySQL DB and adminer
+- also it creates ./wordpress folder and maps it to docker's wordpress files
+
+To start the wp app
+
+- Populate variables in .env
+- Run `docker compose up`
