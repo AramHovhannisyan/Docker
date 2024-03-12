@@ -12,4 +12,13 @@ To start the app
 
 - Populate variables in .env
 - create `start` script to package.json
+- Run `docker compose up`
+
+`/wordpress/mysql` folder include
+- docker-compose to build wordpress app with mySQL DB and adminer
+
+To start the wp app
+
+- Populate variables in .env
+- Run `docker compose up`
 
